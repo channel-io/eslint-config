@@ -141,6 +141,10 @@ module.exports = {
       files: ['**/*.ts', '**/*.tsx'],
       excludedFiles: ['**/*.js'],
       rules: {
+        'no-unused-vars': 'off',
+        '@typescript-eslint/no-unused-vars': [
+          'error'
+        ],
         'no-undef': 'off',
         'no-dupe-class-members': 'off', // 메서드 오버라이딩 허용. off 해도 tsc에서 에러
         'import/no-named-as-default': 'off',
