@@ -104,6 +104,8 @@ module.exports = {
     'react/jsx-tag-spacing': 'off',
     'jsx-a11y/alt-text': 'off',
     'no-restricted-syntax': 'off',
+    'import/no-named-as-default': 'off',
+    'import/no-named-as-default-member': 'off',
 
     // TypeScript
     'import/order': ['error', { groups: ['external', 'builtin', 'internal', 'sibling', 'parent', 'index'] }],
@@ -147,8 +149,6 @@ module.exports = {
         ],
         'no-undef': 'off',
         'no-dupe-class-members': 'off', // 메서드 오버라이딩 허용. off 해도 tsc에서 에러
-        'import/no-named-as-default': 'off',
-        'import/no-named-as-default-member': 'off' // NOTE: React HOC 에서 off https://github.com/benmosher/eslint-plugin-import/issues/544
       },
     },
     {
