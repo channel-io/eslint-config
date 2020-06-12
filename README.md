@@ -21,7 +21,7 @@ create `.eslintrc` file and extend this library.
 ```js
 module.exports = {
   "extends": [
-    "eslint-config-channel",
+    "@channel.io/eslint-config-channel",
   ],
 }
 
