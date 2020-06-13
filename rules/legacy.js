@@ -8,12 +8,10 @@ module.exports = {
   'jsx-a11y/alt-text': 'off',
   'jsx-a11y/click-events-have-key-events': 'off',
   'jsx-a11y/no-static-element-interactions': 'off',
-  'no-else-return': 'off',
   'no-restricted-syntax': 'off',
   'object-curly-newline': 'off',
   'operator-linebreak': 'off',
   'prefer-destructuring': 'off',
-  'react/destructuring-assignment': 'off',
   'react/jsx-one-expression-per-line': 'off',
   'react/jsx-tag-spacing': 'off',
 }

@@ -1,6 +1,7 @@
 module.exports = {
   'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
   'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+  'react/destructuring-assignment': ['error', 'always'],
   'react/forbid-prop-types': 'off',
   'react/jsx-curly-spacing': ['error', { when: 'never', children: { when: 'always' }, }],
   'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx', '.tsx'] }],

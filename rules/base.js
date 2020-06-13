@@ -10,7 +10,7 @@ module.exports = {
   'default-case': 'off',
   'global-require': 'off',
   'import/extensions': ['error', 'ignorePackages', { js: 'never', mjs: 'never', jsx: 'never', ts: 'never', tsx: 'never' }],
-  'import/no-cycle': 'off', // TODO: remove cycle import
+  'import/no-cycle': 'off', // TODO: Remove cycle import
   'import/no-extraneous-dependencies': 'off', // package.json directory hierarchy problem
   'import/order': ['error', { groups: ['external', 'builtin', 'internal', 'sibling', 'parent', 'index'] }],
   'import/prefer-default-export': 'off',
