@@ -12,7 +12,7 @@ module.exports = {
   'import/extensions': ['error', 'ignorePackages', { js: 'never', mjs: 'never', jsx: 'never', ts: 'never', tsx: 'never' }],
   'import/no-cycle': 'off', // TODO: Remove cycle import
   'import/no-extraneous-dependencies': 'off', // package.json directory hierarchy problem
-  'import/order': ['error', { groups: ['external', 'builtin', 'internal', 'sibling', 'parent', 'index'] }],
+  'import/order': ['error', { groups: ['external', 'builtin', 'internal', 'parent', 'sibling', 'index'] }],
   'import/prefer-default-export': 'off',
   'max-len': ['error', 130],
   'new-cap': 'off',
