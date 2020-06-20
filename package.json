@@ -1,5 +1,5 @@
 {
-  "name": "@channel.io/eslint-config-channel",
+  "name": "@channel.io/eslint-config",
   "version": "1.0.5",
   "description": "eslint configuration for channel.io web",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "author": "Channel.io",
   "bugs": {
-    "url": "https://github.com/channel-io/eslint-config-channel/issues"
+    "url": "https://github.com/channel-io/eslint-config/issues"
   },
-  "homepage": "https://github.com/channel-io/eslint-config-channel",
+  "homepage": "https://github.com/channel-io/eslint-config",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/channel-io/eslint-config-channel.git"
+    "url": "git+https://github.com/channel-io/eslint-config.git"
   },
   "keywords": [
     "react",
