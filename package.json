@@ -1,6 +1,6 @@
 {
   "name": "@channel.io/eslint-config",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "eslint configuration for channel.io web",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "eslint": "^5.16.0",
     "eslint-config-airbnb-typescript": "^4.0.1",
     "eslint-import-resolver-webpack": "^0.10.1",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.12.4",
