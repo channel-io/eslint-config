@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Channel.io",
+  "author": "Channel Corp.",
   "bugs": {
     "url": "https://github.com/channel-io/eslint-config/issues"
   },
@@ -38,6 +38,5 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "eslint-plugin-jest": "^22.7.1",
     "eslint-plugin-babel": "^5.3.0"
-  },
-  "devDependencies": {}
+  }
 }
