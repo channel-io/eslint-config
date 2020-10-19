@@ -1,12 +1,12 @@
 {
   "name": "@channel.io/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "eslint configuration for channel.io web",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Channel.io",
+  "author": "Channel Corp.",
   "bugs": {
     "url": "https://github.com/channel-io/eslint-config/issues"
   },
@@ -22,22 +22,21 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "eslint-config-airbnb-typescript": "^4.0.1"
+    "eslint-config-airbnb-typescript": "^12.0.0"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.9.0",
-    "@typescript-eslint/parser": "^2.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
     "babel-eslint": "^8.2.6",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-typescript": "^4.0.1",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
     "eslint-import-resolver-webpack": "^0.10.1",
     "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.6.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "4.0.8",
     "eslint-plugin-jest": "^22.7.1",
     "eslint-plugin-babel": "^5.3.0"
-  },
-  "devDependencies": {}
+  }
 }
