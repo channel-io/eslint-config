@@ -4,6 +4,20 @@ module.exports = {
   '@typescript-eslint/interface-name-prefix': 'off',
   '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' }, singleline: { delimiter: 'comma', requireLast: false }, }],
   '@typescript-eslint/semi': ['error', 'never'],
+  '@typescript-eslint/naming-convention': [
+    'warn',
+    {
+      selector: 'default',
+      format: [
+        'camelCase',
+        'PascalCase',
+        'snake_case',
+        'UPPER_CASE',
+      ],
+      leadingUnderscore: 'allowSingleOrDouble',
+      trailingUnderscore: 'allowSingleOrDouble',
+    },
+  ],
   'babel/no-unused-expressions': 'error',
   'class-methods-use-this': 'off',
   'curly': ['error', 'multi-line'],
