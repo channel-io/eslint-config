@@ -36,4 +36,5 @@ module.exports = {
   }],
   'react/state-in-constructor': ['error', 'never'],
   'react/static-property-placement': 'off',
+  '@channel.io/hooks-deps-element-newline': 'warn',
 }
