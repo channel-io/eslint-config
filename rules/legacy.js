@@ -13,5 +13,4 @@ module.exports = {
   'operator-linebreak': 'off',
   'prefer-destructuring': 'off',
   'react/jsx-one-expression-per-line': 'off',
-  'react/jsx-tag-spacing': 'off',
 }

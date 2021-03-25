@@ -15,6 +15,7 @@ module.exports = {
     'import',
     'react',
     'react-hooks',
+    '@channel.io',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
