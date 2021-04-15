@@ -46,5 +46,5 @@ module.exports = {
   'no-useless-constructor': 'error',
   'semi': ['error', 'never'],
   'sort-keys': 'off',
-  'prefer-arrow-callback': 'off',
+  'prefer-arrow-callback': ['error', { 'allowNamedFunctions': true }],
 }
