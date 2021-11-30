@@ -1,6 +1,7 @@
 module.exports = {
   'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
   'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
+  'react/jsx-key': 'error', // Checks required key prop in JSX exist
   'react/default-props-match-prop-types': 'off', // See: https://github.com/yannickcr/eslint-plugin-react/issues/2396
   'react/destructuring-assignment': ['warn', 'always'],
   'react/forbid-prop-types': 'off',
