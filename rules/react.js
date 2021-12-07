@@ -1,7 +1,10 @@
 module.exports = {
   'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
   'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-  'react/jsx-key': 'warn', // TODO: (@axel) 사용처 버전업 진행 후 error 레벨로 변경. // Checks required key prop in JSX exist
+  'react/jsx-key': ['error', {
+    checkFragmentShorthand: true,
+    checkKeyMustBeforeSpread: true,
+  }],
   'react/default-props-match-prop-types': 'off', // See: https://github.com/yannickcr/eslint-plugin-react/issues/2396
   'react/destructuring-assignment': ['warn', 'always'],
   'react/forbid-prop-types': 'off',
