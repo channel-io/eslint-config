@@ -28,7 +28,7 @@ module.exports = {
   'import/no-extraneous-dependencies': 'off', // package.json directory hierarchy problem
   'import/order': ['error', { groups: ['external', 'builtin', 'internal', 'parent', 'sibling', 'index'] }],
   'import/prefer-default-export': 'off',
-  'import/no-named-defult': 'off',
+  'import/no-named-default': 'off',
   'max-len': ['error', 130],
   'new-cap': 'off',
   '@channel.io/no-classnames-with-one-argument': 'error',
