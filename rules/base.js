@@ -41,7 +41,7 @@ module.exports = {
   'no-param-reassign': ['error', { props: false }],
   'no-restricted-imports': ['error', { paths: ['src'], patterns: ['../*'], }],
   'no-restricted-modules': ['error', { paths: ['src'], patterns: ['../*'], }],
-  '@channel.io/no-translate-with-template-literal': 'warn',
+  '@channel.io/no-translate-with-template-literal': 'error',
   'no-underscore-dangle': 'off',
   'no-unused-expressions': 'off', // use babel/no-unused-expressions
   'no-unused-vars': ['error', { ignoreRestSiblings: true }],
