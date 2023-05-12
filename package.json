@@ -1,6 +1,6 @@
 {
   "name": "@channel.io/eslint-config",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "eslint configuration for channel.io web",
   "main": "index.js",
   "scripts": {
