@@ -12,7 +12,7 @@ module.exports = {
   'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx', '.tsx'] }],
   'react/jsx-no-constructed-context-values': 'error',
   'react/jsx-no-target-blank': 'off',
-  'react/jsx-props-no-spreading': 'warn',
+  'react/jsx-props-no-spreading': 'off',
   'react/no-did-update-set-state': 'off', // Some are not alternative
   'react/no-find-dom-node': 'off',
   'react/prefer-stateless-function': 'off',
